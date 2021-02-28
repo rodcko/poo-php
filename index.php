@@ -1,5 +1,10 @@
 <?php
 
+require 'greet.php';
+
+echo greet('Rodcko', 'Como estas...');
+
+
 class User
 {
   public $type;
